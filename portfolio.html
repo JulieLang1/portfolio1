@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website Julie Helbæk Lang" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Libertinus+Serif+Display&family=Permanent+Marker&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navigation -->
+    <header class="navbar">
+      <a href="index.html" class="logo">
+        <img src="img/logo.svg" alt="logo" />
+      </a>
+      <h1>Portfolio</h1>
+
+      <nav class="menu">
+        <a href="index.html" class="cta-knap">Forside</a>
+        <a href="portfolio.html" class="cta-knap">Portfolio</a>
+        <a href="ommig.html" class="cta-knap">Om mig</a>
+      </nav>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </header>
+    <main>
+      <!-- projekt navigation -->
+      <section class="project-nav">
+        <button class="cta active" data-target="opgave1">1. Introuge</button>
+        <button class="cta" data-target="opgave2">2. Grundlæggende web</button>
+        <button class="cta" data-target="opgave3">3. Grundlæggende UX/UI</button>
+        <button class="cta" data-target="opgave4">4. Grundlæggende brugergrænsefladeuvikling</button>
+        <button class="cta" data-target="opgave5">5. Grundlæggende indhold</button>
+      </section>
+      <!-- projekt indhold -->
+      <section class="projects">
+        <article id="opgave1" class="project active">
+          <h1 class="overskrift">Tema 1 - Intro</h1>
+          <div class="raekke">
+            <div class="tekst1">
+              <h2>Løsning</h2>
+              <p>
+                <strong>GitHub:</strong> Jeg skulle have et sted at hoste websider til brug i undervisningen på MMD. Til det skulle jeg bruge GitHub, som er en site hosting service, hvor jeg kan uploade filer og offentligøre mine hjemmesider fra, i
+                løbet af uddannelsen.
+              </p>
+              <p>
+                <strong>Figjam:</strong> Jeg skulle lære nogle af de grundlæggende værktøjer som figma (design og figjam) at kende. Da jeg kommer til at arbejde meget med figma i løbet af MMD uddannelsen. I denne opgave skulle jeg lave et
+                præsentationskort af en af mine medstuderende.
+              </p>
+              <p>
+                <strong>Ugeopgave:</strong> Vi skulle arbejde med vores første multimedieproduktion. Vi skulle lære hinanden at kende i klassen. Og derfor lave en video med vores tildelte gruppe. Derefter skulle den uploades på youtube, så alle med
+                linket har mulighed for at se den.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/kort_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Endelige resultat af mit præsentationskort (anonymiseret)</figcaption>
+              </figure>
+              <figure>
+                <img src="img/git_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Forsiden til mit første GitHub page</figcaption>
+              </figure>
+              <figure>
+                <img src="img/video_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Resultate af ugeopgaven (find linket længere nede på siden)</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+
+          <div class="raekke omvendt">
+            <div class="tekst1">
+              <h2>Process</h2>
+              <p>
+                <strong>GitHub:</strong> Jeg startede med at oprette mig på GitHub, derefter uploadede jeg filer jeg havde få tildelt til et repository, derefter publicere jeg det, så jeg har min første hjemmeside. Til sidste skulle jeg aflevere
+                linket til min hjemmeside på GitHub pages.
+              </p>
+              <p>
+                <strong>Figjam: </strong>Jeg startede med at installere figma på min computer, derefter kopirede jeg den tildelte template over i mit eget figjam dokument for at kunne lave et præsentationskort af en af mine medstuderende i klassen.
+              </p>
+              <p>
+                <strong>Ugeopgave: </strong>Vi skulle tage udgangspunkt i et fælles emne. Vi startede med idegenering. Min gruppe valgte at tage udgangspunkt i introen fra serien klovn. Derefter planlagde vi hvordan hvert enkelte i gruppen skulle
+                præsenteres i videoen og begyndte dernæst at filme de første klip. Da vi var færdige med alle klippende til videoen, skulle de sættes sammen og videoen skulle redigeres og der skulle vores valgte lyd ind over.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/puge_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Ugeopgave process</figcaption>
+              </figure>
+              <figure>
+                <img src="img/puge1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Ugeopgave process</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ruge_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Screenshot af et klip fra ugeopgaven</figcaption>
+              </figure>
+              <figure>
+                <img src="img/tkort_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Den tildelte template jeg skulle arbejde ud fra</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+
+          <div class="raekke">
+            <div class="tekst1">
+              <h2>Læring</h2>
+              <p>
+                <strong>GitHub: </strong> Jeg lærte at oprette mig på GitHub . Jeg lærte også hvordan jeg hoster en hjemmeside og hvordan man aflevere linket til sin hjemmeside. Dette var essentielt for at kunne lave mine kommende afleveringer og
+                følge med i undervisningen.
+              </p>
+              <p>
+                <strong>Figjam: </strong> Jeg lærte at installere figma og oprette en figjam. Jeg fik afprøvet en masse forskellige værktøjer derinde for, at se hvad man kunne og generelt afprøve programmet. Jeg fik lært om farver, tekst, billeder
+                osv i figjam, da jeg skulle lave et præsentationskort der afspejlede min medstuderende.
+              </p>
+              <p>
+                <strong>Ugeopgave:</strong> Udover at vi lærte hinanden bedre at kende lærte vi at analysere klip i vores tilfælde klovn introen. Vi lærte om kamerabevægelse, perspektiv, lyd osv. Vi lærte om idegenering, editing effects og research.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/tkort_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Den tildelte template jeg skulle arbejde ud fra</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ruge1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Screenshot af vores video</figcaption>
+              </figure>
+              <figure>
+                <img src="img/repo_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Screenshot af mit første repository</figcaption>
+              </figure>
+              <figure>
+                <img src="img/kort_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Screenshot af mit endelige præsentation kort dog anonymiseret</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+          <a href="https://docs.google.com/document/d/11MRcB5N0dKFg7c0Qkx2kXje7vYySZNE9HXu7TIXEKCA/edit?tab=t.0#heading=h.vdsrh7s13cc9" class="cta-knap">Se processen af ugeopgaven her!</a>
+          <a href="https://www.youtube.com/watch?v=2DeESUTnd0Y" class="cta-knap">Se resultatet af ugeopgaven her!</a>
+        </article>
+
+        <article id="opgave2" class="project">
+          <h1 class="overskrift">Tema 2 - Mobilesite/Website</h1>
+          <div class="raekke">
+            <div class="tekst1">
+              <h2>Løsning</h2>
+              <p>
+                <strong>Mobilesite:</strong> Jeg skulle opbygge den første version af mit website med en god grundstruktur, undersider og navigationsmenu. Jeg arbejdede i mobile-first, da jeg skulle starte med at lave en mobil version, som skulle
+                følge det udleverede wireframe og layoutdiagram.
+              </p>
+              <p><strong>Website:</strong> Jeg skulle nu arbejde videre på mit mobilesite. Mit mobilesite skulle nu også fungere på desktop.</p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/m1_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Mobilesite forside</figcaption>
+              </figure>
+              <figure>
+                <img src="img/m2_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Mobilesite side 2</figcaption>
+              </figure>
+              <figure>
+                <img src="img/w1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Website forside</figcaption>
+              </figure>
+              <figure>
+                <img src="img/w2_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Website side 2</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+
+          <div class="raekke omvendt">
+            <div class="tekst1">
+              <h2>Process</h2>
+              <p>
+                <strong>Mobilesite:</strong> Jeg startede med at finde og downloade det udleverede materiale, derefter åbnede jeg visual studio code. Jeg oprettede mine 5 html sider og indsatte header, main og footer, da det var noget alle siderne
+                skulle indholde. Jeg lærte at lave en menu med en ul. Jeg oprettede css filer til alle undersider så jeg kunne bruger farver, fonte, margin og padding.
+              </p>
+              <p>
+                <strong>Website:</strong> Jeg startede med at downloade det nye udleverede materiale, derefter åbner VS code med mit mobilsite i. Jeg oprettede 2 CSS filer da alt min CSS skulle samles i to filer i stedet for 5. Jeg skulle bruge media
+                queries for at gøre hjemmesiden repsonsiv så indholdet passede til både desktop og mobile. Jeg lærte om CSS grid som jeg brugte til at skabe fleksible og responsive layouts baseret på rækker og kolonner. Jeg brugte class til at
+                målrette styling i CSS. Til sidst efter jeg havde sat hjemmesiden op med CSS grid, media queries og classes stylede jeg min menu med flexbox så jeg kunne placere mine elementer på en akse af gangen.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/layw_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Layoutdiagram til website forside</figcaption>
+              </figure>
+              <figure>
+                <img src="img/layw1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Layoutdiagram til website side 2</figcaption>
+              </figure>
+              <figure>
+                <img src="img/laym_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Layoutdiagram til mobilesite</figcaption>
+              </figure>
+              <figure>
+                <img src="img/wirem_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Wireframe til mobilesite forside</figcaption>
+              </figure>
+              <figure>
+                <img src="img/wirem1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Wireframe til mobilesite side 2</figcaption>
+              </figure>
+              <figure>
+                <img src="img/wirew_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Wireframe til website forside</figcaption>
+              </figure>
+              <figure>
+                <img src="img/wirew1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Wireframe til website side 2</figcaption>
+              </figure>
+              <figure>
+                <img src="img/tekst_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Den udelte tekst der skulle være på siden</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+          <div class="raekke">
+            <div class="tekst1">
+              <h2>Læring</h2>
+              <p>
+                <strong>Mobilesite: </strong> Jeg lærte at lave en mobile-first version med det udleverede materiale. Jeg lærte hvordan man lavede en menu og hvordan man stiller indholdet op i en html fil. Jeg lærte hvordan man brugte css til at
+                skifte farve på siden og hvordan man satte fonte ind, fandt dem og stylede dem i css. Jeg lærte også hvordan man brugte margin og padding. Jeg lærte også at validere min html, efter fejl.
+              </p>
+              <p><strong>Website:</strong> Jeg lærte hvordan man laver en repsonsiv hjemmeside, der fungere til desktop og mobile. Jeg lærte om CSS grid, media queries, flexbox og classes.</p>
+              <p>Udover det lærte jeg også om ophavsrettigheder, så jeg ved hvilke forhold jeg skal tage i forhold til materiale der ikke er mit eget. Jeg lærte også om styletile, billeder, design og farvekontraster.</p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/læring_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Process og læring af mit første styletile</figcaption>
+              </figure>
+              <figure>
+                <img src="img/tt_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Template til mit første styletile</figcaption>
+              </figure>
+              <figure>
+                <img src="img/m1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Mobilesite forside</figcaption>
+              </figure>
+              <figure>
+                <img src="img/w1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Website forside</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+          <a href="https://www.figma.com/design/DBxSbzLfjrGMv531Swp4Js/%C3%B8velse?node-id=0-1&t=Jl5GtUfKkTsuja3v-1" class="cta-knap">Se processen af styletile øvelse her!</a>
+          <a href="https://julielang1.github.io/mobilesite/mobilesite/index.html" class="cta-knap">Se resultatet af mobilsitet her!</a>
+          <a href="https://julielang1.github.io/website/html/index.html" class="cta-knap">Se resultatet websitet her!</a>
+        </article>
+
+        <article id="opgave3" class="project">
+          <h1 class="overskrift">Tema 3 - Emnesite</h1>
+          <div class="raekke">
+            <div class="tekst1">
+              <h2>Løsning</h2>
+              <p>
+                Jeg skulle opbygge mit eget emnesite med et selvvalgt emne som skulle have et formål for brugeren. Jeg skulle lave grundig research og dokumentering af hele forløbet. Mit emnesite handlede om "beslutninger", og sidens formål var at
+                hjælpe folk med nemmere at træffe beslutninger.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/forside_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Forsiden på mit website om beslutninger</figcaption>
+              </figure>
+              <figure>
+                <img src="img/raad_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Side 2 på mit website (råd siden)</figcaption>
+              </figure>
+              <figure>
+                <img src="img/trae_result.webp" class="slide" alt="" />
+                <figcaption class="caption">side 3 på mit website (beslutningstræ)</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emneu_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Mit udkast i figma til, hvordan hjemmesiden skulle se ud</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+
+          <div class="raekke omvendt">
+            <div class="tekst1">
+              <h2>Process</h2>
+              <p>
+                Jeg startede med at researche forskellige emner for at finde ud af hvad jeg gerne ville lave et website om. Jeg valgte hurgtigt emnet "beslutninger". Derefter begyndte jeg min research på mit valgte emne for at finde ud af, hvad de
+                forskellige sider skulle indeholde. Derefter tog jeg stilling til tekst og billeder som skulle være på mit site. Derefter laver jeg mit første udkast i figma. Jeg laver styletiles, lofi, hifi og brugertest på mit udkast. Derefter
+                begynder jeg at kode efter de krav der er stillet i opgaven. Efter jeg havde afleveret begyndte jeg på min præsentation som bestod af hele processen omkring mit emnesite.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/emnel_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Lighthouse test desktop</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emnel1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Lighthouse test mobile</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emneu_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Mit udkast i figma til, hvordan hjemmesiden skulle se ud</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emnep_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Hele processen af mit site</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emnew_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Udkast til wireframes</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emner_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Feedback fra klassen af mine første ideer</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emnes_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Udkast til styletiles</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+
+          <div class="raekke">
+            <div class="tekst1">
+              <h2>Læring</h2>
+              <p>
+                Jeg lærte om dokumentering af processen og hvor vigtigt det er. Jeg lærte om forskellige research metoder, designpatterns og om forskellige brugertests såsom 5 seconds, lighthouse og likert test. Jeg lærte også hvordan man lavede en
+                prototype i figma. I dette forløb lærte jeg også om favicon og logo og hvordan man implementerede det.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/emnep_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Hele processen af mit site</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emneu_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Mit udkast i figma til, hvordan hjemmesiden skulle se ud</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emnet_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Likert test af mine styletiles</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emnel_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Lighthouse test desktop</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emnel1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Lighthouse test mobile</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+          <a href="https://www.figma.com/design/pD9PAjQwDqH1ZDdrbsfg0f/Emnesite?node-id=0-1&t=rvJnWcLTnPopdIMk-1" class="cta-knap">Se processen her!</a>
+          <a href="https://julielang1.github.io/emnesite/index.html" class="cta-knap">Se resultatet her!</a>
+        </article>
+
+        <article id="opgave4" class="project">
+          <h1 class="overskrift">Tema 4 - Emergency site</h1>
+          <div class="raekke">
+            <div class="tekst1">
+              <h2>Løsning</h2>
+              <p>Jeg skulle i dette tema arbejde på udvalgte dele af et Emergency site. Jeg skulle aflevere min egen unikke løsning på opgaven. Mit emergency site var omkring spillet HayDay, hvor en af karakterene i spillet var blevet onde.</p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/emerf_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Forsiden på mit emergencysite</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emerfd_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Forsiden på mitemergencysite i darkmode</figcaption>
+              </figure>
+              <figure>
+                <img src="img/info_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Min infografik side</figcaption>
+              </figure>
+              <figure>
+                <img src="img/infod_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Min infografik side i darkmode</figcaption>
+              </figure>
+              <figure>
+                <img src="img/formsite_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Min webformular side</figcaption>
+              </figure>
+              <figure>
+                <img src="img/formsited_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Min webformular side i darkmode</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+
+          <div class="raekke omvendt">
+            <div class="tekst1">
+              <h2>Process</h2>
+              <p>
+                Fundamentet til sitet var allerede lavet. Jeg startede med at downloade alt indholdet, så kode, wireframes osv. Derefter fulgte jeg den udleverede style guide og ændrede farverne på sitet så det passede. Jeg startede med at lave
+                infografik i illustrator og implementerede det på sitet. Derefter skulle jeg konstruere og style en webformular, der kunne registrere brugerinput, som kunne være vigtigt i min nødsituation. Derefter designede og byggede jeg min
+                forside med billeder jeg havde tegnet i illustrator, tekst med popover osv. Til sidst stylede jeg og implementerede jeg dark mode til mit site. Derefter begyndte jeg på min præsentation omkring processen.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/emerp_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Processen på mit emergencysite</figcaption>
+              </figure>
+              <figure>
+                <img src="img/forms_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Udkast til min webformular i figma</figcaption>
+              </figure>
+              <figure>
+                <img src="img/illu_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Billeder jeg tegnede i figma til mit emergencysite</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emerf_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Emergencysite forside</figcaption>
+              </figure>
+              <figure>
+                <img src="img/info_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Emergencysite infografik side</figcaption>
+              </figure>
+              <figure>
+                <img src="img/formsite_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Emergencysite webformular side</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+
+          <div class="raekke">
+            <div class="tekst1">
+              <h2 class="overskrift">Læring</h2>
+              <p>
+                I dette forløb lærte jeg om illustrator og layers for at kunne gøre det nemmere for mig at implementere på mit site og gøre specifikke dele klikbare i min infografik. Jeg lærte derudover også at lave en webformular der kunne
+                registrere brugerinput. Jeg lærte også hvordan man laver darkmode. Jeg lærte lidt mere om javaScript, da jeg brugte det til burgermenuen, dark mode, forms og min infografik. Jeg lærte også at lave popover, til min forside.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/popover_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Et billede af en af de popovers jeg lavede på forsiden</figcaption>
+              </figure>
+              <figure>
+                <img src="img/emerfd_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Forsiden i darkmode</figcaption>
+              </figure>
+              <figure>
+                <img src="img/infod_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Infografik siden i darkmode</figcaption>
+              </figure>
+              <figure>
+                <img src="img/formsited_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Webformular siden i darkmode</figcaption>
+              </figure>
+              <figure>
+                <img src="img/illu_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Mine billeder tegnet i illustrator til mit emergencysite</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+          <a href="https://www.figma.com/design/tzf3A3fjgUczMnYYHiDYro/Untitled?node-id=0-1&t=mYTlujQPNBfmURT2-1" class="cta-knap">Se processen her!</a>
+          <a href="https://julielang1.github.io/emergencysite2/emergency-main/index.html" class="cta-knap">Se resultatet her!</a>
+        </article>
+
+        <article id="opgave5" class="project">
+          <h1 class="overskrift">Tema 5 - Sandkassesite og virksomhedssite</h1>
+          <div class="raekke">
+            <div class="tekst1">
+              <h2>Løsning</h2>
+              <p>
+                <strong>Sandkassesite:</strong> Jeg skulle i dette tema lave mit eget sandkassesite. Jeg valgte emnet hunderacer og hvad man skal være opmærksom på før man køber en hund. Jeg skulle følge kravene til opgaven og det udleverede
+                wireframe.
+              </p>
+              <p>
+                <strong>Virksomhedssite: </strong> Jeg skulle med min gruppe lave et redesign for en eksisterende virksomhed. Det skulle munde ud i et kodet website og indholde indholdsproduktioner i form af tekst, foto, hero section osv. Vi valgte
+                at lave et redesign for Mariager ost og vin.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/sand1_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Sandkassesite: Øverste del af forsiden</figcaption>
+              </figure>
+              <figure>
+                <img src="img/sand2_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Sandkassesite: midterste del af forsiden</figcaption>
+              </figure>
+              <figure>
+                <img src="img/sand3_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Sandkassesite: nederste del af forsiden</figcaption>
+              </figure>
+              <figure>
+                <img src="img/oprindeligesite_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Det oprindelige site</figcaption>
+              </figure>
+              <figure>
+                <img src="img/virksomhedforside1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Forsiden med hero og navigation</figcaption>
+              </figure>
+              <figure>
+                <img src="img/virksomhedforside2_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Forsiden med vintyper og links videre til de andre sider</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ost1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Oste siden, billede slider funktionen</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ost2_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Oste siden, søg på en ost i søgefeltet</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ost3_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Oste siden, efter valg af ost kommer der forslag til vin nedenunder</figcaption>
+              </figure>
+              <figure>
+                <img src="img/vin1_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Vin siden, billede slider funktion</figcaption>
+              </figure>
+              <figure>
+                <img src="img/vin2_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Vin siden, søg på en vin</figcaption>
+              </figure>
+              <figure>
+                <img src="img/vin3_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Vin siden, efter valg af vin kommer der forslag til ost</figcaption>
+              </figure>
+              <figure>
+                <img src="img/book_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Booking siden</figcaption>
+              </figure>
+              <figure>
+                <img src="img/omkaj_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite-redesign: Om ejeren af Mariager ost og vin</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+
+          <div class="raekke omvendt">
+            <div class="tekst1">
+              <h2>Process</h2>
+              <p>
+                <strong>Sandkassesite: </strong>Jeg startede med at researche hvilket emne jeg gerne ville have. Jeg valgte emnet hunderacer og det ansvar der følger. Derefter begyndte jeg processen med styletile, herosektion, tekst, tage billeder,
+                brainstorm osv. Derefter downloadede jeg det udleverede wireframe og begyndte på kodningen.
+              </p>
+              <p>
+                <strong>Virksomhedssite:</strong> Da vi havde fået grupperne startede vi med at lave en arbejdskontrakt, et trello board og scrum til at planlægge og styre vores projektarbejde. Derefter researchede vi og fandt en hjemmeside der
+                trængte til et redesign. Derefter oprettede vi et fælles figmadokument hvor vi kunne dokumentere hele vores process. Vi brugte researche metoder vi havde lært i tema 3 til at undersøge virksomhedens nuværendes site's brand, målgruppe,
+                produkter, design, struktur, brugerrejser og formål. Vi lavede derefter wireframes, sitemap og funktionalitetsliste, styletile, billedstil og indholdsoversigt. Vi analyserede brugerens opfattelse af det oprindelige site med en
+                5-sekunderstest. Vores site tog udgangspunkt i vores research, vi udvalgte nogle ting vi gerne ville fokusere på i vores redesign, herunder målgruppe, brugerrejse, funktionaliteter og undersider. Derefter lavede vi en prototype i
+                figma både til desktop og mobile. Vi udarbejdede et udkast til en hero, og de billeder vi ville bruge. Vi begyndte derefter at kode og lave layoutdiagrammer. Vi delte siderne op så vi mindst havde en side hver at kode. Jeg stod for to
+                sider, så dem begyndte jeg at kode. Da vi alle var færdige med at kode lavede vi tænke-højt-test, likert-test, 5-sekunders test, heuristisk evaluering og lighthouse test. Derefter satte vi alle testresultaterne ind i vores
+                processdokumentation i figma. Til sidst arbejdede vi på præsentationen, hvor vi skulle præsentere vores proces og løsning.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/styleogmood_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">sandkassesite: styletile og moodboard</figcaption>
+              </figure>
+              <figure>
+                <img src="img/aiøvelse_result.webp" class="slide" alt="" />
+                <figcaption class="caption">sandkassesite: AI øvelse</figcaption>
+              </figure>
+              <figure>
+                <img src="img/wireframes_result.webp" class="slide" alt="" />
+                <figcaption class="caption">sandkassesite: Udelte wireframes til sandkassesitet</figcaption>
+              </figure>
+              <figure>
+                <img src="img/prototypesand_result.webp" class="slide" alt="" />
+                <figcaption class="caption">sandkassesite: Prototypen af mit sandkassesite i mobile og desktop version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/mine_result.webp" class="slide" alt="" />
+                <figcaption class="caption">sandkassesite: Egne billeder+AI genererede som bruges på sitet</figcaption>
+              </figure>
+              <figure>
+                <img src="img/researchhvorfor_result.webp" class="slide" alt="" />
+                <figcaption class="caption">sandkassesite: Hvorfor valgte jeg dette emne</figcaption>
+              </figure>
+              <figure>
+                <img src="img/sandhero_result.webp" class="slide" alt="" />
+                <figcaption class="caption">sandkassesite: Udkast af hero i illustrator</figcaption>
+              </figure>
+              <figure>
+                <img src="img/vstyle_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Styletile</figcaption>
+              </figure>
+              <figure>
+                <img src="img/forsidedesk_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Forsiden i desktop version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ostdesk_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Ost siden i desktop version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ostogforsidemobile_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Ost og forsiden i mobile version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/vindesktop_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Vin siden i desktop version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/formsdesktop_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Book siden i desktop version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/bookvinmobile_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Book og vin siden i mobile version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/omkajmobiledesk_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Om Kaj siden i desktop og mobile version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/wd_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Wireframe i desktop</figcaption>
+              </figure>
+              <figure>
+                <img src="img/wm_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Wireframe mobile version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/lighthousetestalt_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Lighthouse test både i mobile og desktop version</figcaption>
+              </figure>
+              <figure>
+                <img src="img/samarbejdskontrakt_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Vores samarbejdskontrakt</figcaption>
+              </figure>
+              <figure>
+                <img src="img/hvorfor_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Hvorfor vi valgte at redesigne Mariager ost og vin</figcaption>
+              </figure>
+              <figure>
+                <img src="img/stylescape_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Vores stylescape</figcaption>
+              </figure>
+              <figure>
+                <img src="img/logo_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Logoet vi havde udarbejdet til sitet</figcaption>
+              </figure>
+              <figure>
+                <img src="img/moodboard_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: Vores moodboard/stemningsboard</figcaption>
+              </figure>
+              <figure>
+                <img src="img/5sekafvores_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Virksomhedssite: 5 sekunders test af vores site</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+
+          <div class="raekke">
+            <div class="tekst1">
+              <h2>Læring</h2>
+              <p>
+                <strong>Sandkassesite:</strong> Fokuset i opgaven var at øve mig i teknologi og det indhold der blev demonstreret i undervisningen. Jeg lærte lidt mere om research, photoshop, lidt mere avanceret ting i illustrator og om adobe
+                firefly.
+              </p>
+              <p>
+                <strong>Virksomhedsite: </strong> Jeg lærte om stylescapes, ai og billeder, hvordan man arbejder flere sammen i GitHub, jeg lærte om pecha kucha, heuristisk evaluering. Jeg fik derudover også genopfrisket forms, jeg lærte også om
+                password, adgang og kontrol til websiden. Jeg lærte også hvordan man brugte et trello board og om daily scrum.
+              </p>
+            </div>
+            <div class="billede slider">
+              <figure>
+                <img src="img/stylescape_result.webp" class="slide aktiv" alt="" />
+                <figcaption class="caption">Stylescape</figcaption>
+              </figure>
+              <figure>
+                <img src="img/uddrag_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Uddrag af den heuristiske test på vores redesign</figcaption>
+              </figure>
+              <figure>
+                <img src="img/trello_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Vores trello board til slut</figcaption>
+              </figure>
+              <figure>
+                <img src="img/gruppe_result.webp" class="slide" alt="" />
+                <figcaption class="caption">Mig og min gruppes repository</figcaption>
+              </figure>
+              <button class="prev" type="button">‹</button>
+              <button class="next" type="button">›</button>
+            </div>
+          </div>
+          <a href="https://www.figma.com/board/lxF2uMWfgYvbiv8Jc6SrU4/Untitled?node-id=0-1&t=3t7664FtONOQdUvw-1" class="cta-knap">Se processen af sandkassesitet her!</a>
+          <a href="https://www.figma.com/design/cvqyZf94pNtYVEN9sBRKdu/Untitled?node-id=0-1&p=f&t=GnxxRpkkbyuK5ZtX-0" class="cta-knap">Se processen af virksomhedssitet her!</a>
+          <a href="https://julielang1.github.io/sandkasse/" class="cta-knap">Se resultatet af sandkassesitet her!</a>
+          <a href="https://natx056.github.io/ostogvinny/?fbclid=IwY2xjawOwo0RzcnRjBmFwcF9pZAEwAAEe5Q2eIufhAbyMrGKeTMXWfSrF2iv2JqljeQ5PXD3n8atWSCmfcdsoeD7gRag&brid=NuxgZxrO2LGZNib6sHWkbw" class="cta-knap">Se resultatet af virksomhedsitet her!</a>
+        </article>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-item">
+          <span class="label">E-mail:</span>
+          <a href="mailto:Jula0007@stud.ek.dk">Jula0007@stud.ek.dk</a>
+        </div>
+
+        <div class="footer-item">
+          <span class="label">Telefon:</span>
+          <a href="tel:+60534564">+45 60534564</a>
+        </div>
+
+        <div class="footer-item">
+          <span class="label">LinkedIn:</span>
+          <a href="https://www.linkedin.com/in/julie-lang-a17236386" target="_blank"> www.linkedin.com/in/julie-lang-a17236386 </a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
